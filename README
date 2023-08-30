@@ -1,0 +1,55 @@
+Welcome to Verse Vanish
+# Verse Vanish - Song Lyrics App
+
+Verse Vanish is a web application built using JavaScript and React that allows users to explore and retrieve random song verses from a selection of songs. It utilizes React Bootstrap for styling, Axios for making API requests, and Node.js for backend functionality.
+
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API](#api)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Retrieve random song verses from a curated collection of songs.
+- User-friendly interface built with React Bootstrap components.
+- Seamless communication with the song lyrics API using Axios.
+- Node.js backend for handling API requests and data manipulation.
+
+## Installation
+
+1. Clone this repository to your local machine using:
+
+2. Navigate to the project directory:
+
+3. Install the required dependencies for both the frontend and backend:
+
+The backend server will be running on port 5000 by default, serving API requests for retrieving song verses.
+
+## API
+
+The backend of the Verse Vanish app uses an API to fetch song verses. The API endpoint is exposed at `/api/verse/:song`.
+
+- `GET /api/verse/:song`:
+Retrieves a random verse from the specified song in the collection.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to the Verse Vanish app, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes and push them to your fork.
+4. Submit a pull request to the `main` branch of the original repository.
+
+Please ensure your code follows the existing coding style and includes appropriate documentation.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Feel free to adapt and customize the above README template to match your project's specifics. Provide clear instructions, details about the API, and any other relevant information that will help users and potential contributors understand and use your app.
