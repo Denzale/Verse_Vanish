@@ -1,0 +1,56 @@
+
+
+Vetting API
+
+
+Users Table (for now lets not use USER table and only USER_SCORE)
+id       INT
+username STR
+
+User_Score
+username   PRIMARY_KEY
+song_title STR
+song_api_id INT
+
+
+
+Note: For now lets just have 1 table we wont store user record until they are done with at least 1 game
+Note: No need to store lyric in database, we rely on API
+
+
+Database -> Backend -> Frontend
+
+Database 100%
+    1) Defining all the data tha that you store
+    2) Creating the schema (tables and relationshiops)
+
+Backend 80% - Use postman or insomnia for testing APIs
+    1) Deploy a simple node express and react app, just include the base react beginner code, template
+    2) Integrate Database configuration
+    3) Create all of my routes that my frontend will need
+        e.g.
+        a) login => /login and register route
+        b) Get desired song lyric
+            a) Query the API and send frontend
+
+        User Flows, end to end interaction. What should your backend do if a user wants ?
+
+            Frontend will search for an artist, backend will return a song at random
+                            Nice to have popular random song
+
+            
+
+Frontend
+    Mocking the frontend
+    60%
+    1) Buiding each page at a time and using the backend routes for this
+    2) When done with building every page, backend should be 100% done
+
+
+    40%
+    1) Working on the styling and CSS
+
+
+
+
+    
