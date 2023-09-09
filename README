@@ -1,7 +1,7 @@
 Welcome to Verse Vanish
 # Verse Vanish - Song Lyrics App
 
-Verse Vanish is a web application built using JavaScript and React that allows users to explore and retrieve random song verses from a selection of songs. It utilizes React Bootstrap for styling, Axios for making API requests, and Node.js for backend functionality.
+Verse Vanish is an interactive web application built using JavaScript and React that allows users to retrieve random song verses from their favorite artists and will have to fill in the blanks of the missing words in a verse. If you guess all three.. you win! It utilizes React Bootstrap for styling, Axios for making API requests, and Node.js for backend functionality.
 
 ## Table of Contents
 - [Features](#features)
